@@ -24,3 +24,9 @@ That said, there is nothing to say that you can't also use it as a starting poin
 
 # Misc Notes
 The code in the `template` folder was generated with the general starter, [create-strapi-app](https://github.com/strapi/strapi/tree/master/packages/create-strapi-app).
+
+Given that **this repo is a strapi template**, in and of itself (as mentioned above), you can actually use it as such on the command line, to generate a bare-bones, strapi app like this 👇
+
+```
+yarn create strapi-app my-strapi-app-folder-name --template strapi-training/to-customize
+```
