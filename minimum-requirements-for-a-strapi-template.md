@@ -41,7 +41,19 @@ where `scope` is the strapi scope context.
 
 The `template` folder extends the file contents of the strapi web app.
 
-TODO
+The following is taken from strapi's [templates documentation](https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/installation/templates.html#file-structure) and re-shared below (all credit goes to their documentation for the below list, of course).  You `template` folder can only contain the following: 
+
+* `README.md`: the readme of an app made with this template
+* `.env.example`: to specify required environment variables
+* `api/`: for collections and single types
+* `components/` for components
+* `config/` can only include the `functions` directory (things like `bootstrap.js` or `404.js`), because other config files are environment-specific.
+* `data/` to store the data imported by a seed script
+*`plugins/` for custom Strapi plugins
+*`public/` to serve files
+*`scripts/` for custom scripts
+
+
 
 # Optional Features
 
@@ -49,7 +61,7 @@ TODO
 
 The [create strapi CLI](https://github.com/strapi/strapi/tree/master/packages/create-strapi-app) uses a convention that allows custom starters to be referenced by their corresponding shortcut name.  
 
-To provide this convnetion in your custom strapi template, be sure to name your strapi template repo using the following pattern:
+To provide this convention in your custom strapi template, be sure to name your strapi template repo using the following pattern:
 
 `strapi-template-<your_template_name>`
 
@@ -63,7 +75,7 @@ yarn create strapi-app <new_project_folder_name> --template <your_github_org_or_
 
 ## Convenient Checklist
 Use this checklist as you are creating and customizing your dev team's strapi starter: 
-- [X] Visit and watch [strapi.training](https://strapi.training) (TBD) video
+- [X] Visit and watch [strapi.training](https://strapi.training) (video link coming soon) video
 - [ ] [Ensure Github repo is public](TODO gh link)
 - [ ] Have your [`template.js|json` in the root folder](TODO link)
 - [ ] [Modify or replace the `template` folder](TODO link)
