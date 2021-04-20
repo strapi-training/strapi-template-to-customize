@@ -4,8 +4,7 @@ const path = require("path");
 const mime = require("mime-types");
 const {
   siteVisitors
-//TODO } = require("../../data/data.json");
-} = require("../data/data.json");
+} = require("../../data/data.json");
 
 async function isFirstRun() {
   const pluginStore = strapi.store({
