@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "site_visitors",
+  "info": {
+    "name": "Site Visitor"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    }
+  }
+}
