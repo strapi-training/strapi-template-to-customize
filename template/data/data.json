@@ -1,0 +1,12 @@
+{
+  "siteVisitors": [
+    {
+      "name": "Bugs Bunny",
+      "email": "bugs@domain.com"
+    },
+    {
+      "name": "Daffy Duck",
+      "email": "daffy@lt.com"
+    }
+  ]
+}
