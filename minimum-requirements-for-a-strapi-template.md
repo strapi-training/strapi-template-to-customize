@@ -75,7 +75,7 @@ yarn create strapi-app <new_project_folder_name> --template <your_github_org_or_
 
 ## Convenient Checklist
 Use this checklist as you are creating and customizing your dev team's strapi starter: 
-- [X] Visit and watch [strapi.training](https://strapi.training) (video link coming soon) video
+- [X] Visit and watch [strapi.training](https://strapi.training/videos) video series covering custom strapi starters
 - [ ] [Ensure Github repo is public](TODO gh link)
 - [ ] Have your [`template.js|json` in the root folder](TODO link)
 - [ ] [Modify or replace the `template` folder](TODO link)
