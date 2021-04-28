@@ -2,6 +2,8 @@
 
 👉 This repo is to be used as boilerplate code for the strapi **template** portion of creating and customizing a [strapi starter](https://strapi.io/blog/announcing-the-strapi-starter-cli) for your dev team.
 
+👉  Here is the companion [video series announcement (w/link to training video)](https://twitter.com/monico_moreno/status/1386834033179602946).
+
 This repo is referenced by the customizeable, strapi starter [`strapi-starter-to-customize`](https://github.com/strapi-training/strapi-starter-to-customize), in its [`starter.json`](https://github.com/strapi-training/strapi-starter-to-customize/blob/master/starter.json#L2) file.  As such, this repo represents the required strapi **template**, that will provide the backend, strapi API for our customized, strapi starter, detailed in this repo's [instructional video](ℹ️  There is a companion, strapi training, [video series](https://twitter.com/monico_moreno/status/1386834033179602946) with which this repo corresponds.).
 
 (Please see benefits of strapi starters in [this video series](https://strapi.training/videos/intro-to-auxiliary-benefits-to-strapi-starters), which goes over auxiliary benefits like: R&D, prototyping, and proofs of concept.)
